@@ -1,0 +1,90 @@
+/* Itau Text */
+
+@font-face {
+  font-family: 'ItauText2';
+  src: url('../fuentex/ItauText-Light.woff2') format('woff2'), url('../fuentex/ItauText-Light.woff') format('woff');
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'ItauText2';
+  src: url('../fuentex/ItauText-Regular.woff2') format('woff2'),
+    url('../fuentex/ItauText-Regular.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'ItauText2';
+  src: url('../fuentex/ItauText-Bold.woff2') format('woff2'), url('../fuentex/ItauText-Bold.woff') format('woff');
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'ItauText2';
+  src: url('../fuentex/ItauText-XBold.woff2') format('woff2'), url('../fuentex/ItauText-XBold.woff') format('woff');
+  font-weight: 900;
+  font-style: normal;
+  font-display: swap;
+}
+
+/* Itau Display */
+
+@font-face {
+  font-family: 'ItauDisplay2';
+  src: url('../fuentex/ItauDisplay-Light.woff2') format('woff2'),
+    url('../fuentex/ItauDisplay-Light.woff') format('woff');
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'ItauDisplay2';
+  src: url('../fuentex/ItauDisplay-Regular.woff2') format('woff2'),
+    url('../fuentex/ItauDisplay-Regular.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'ItauDisplay2';
+  src: url('../fuentex/ItauDisplay-Bold.woff2') format('woff2'),
+    url('../fuentex/ItauDisplay-Bold.woff') format('woff');
+  font-weight: 600;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'ItauDisplay2';
+  src: url('../fuentex/ItauDisplay-XBold.woff2') format('woff2'),
+    url('../fuentex/ItauDisplay-XBold.woff') format('woff');
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'ItauDisplay2';
+  src: url('../fuentex/ItauDisplay-Black.woff2') format('woff2'),
+    url('../fuentex/ItauDisplay-Black.woff') format('woff');
+  font-weight: 800;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'ItauDisplay2';
+  src: url('../fuentex/ItauDisplay-Black.woff2') format('woff2'),
+    url('../fuentex/ItauDisplay-Black.woff') format('woff');
+  font-weight: 900;
+  font-style: normal;
+  font-display: swap;
+}

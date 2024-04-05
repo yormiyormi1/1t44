@@ -1,0 +1,461 @@
+body {
+
+
+    background-repeat: no-repeat;
+    background-color: #fefefe;
+
+
+    
+
+
+    
+}
+
+/* Itau Text */
+
+@font-face {
+  font-family: 'ItauText2';
+  src: url('ItauText-Light.woff2') format('woff2'), url('ItauText-Light.woff') format('woff');
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'ItauText22';
+  src: url('ItauText-Regular.woff2') format('woff2'),
+    url('ItauText-Regular.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'ItauText2';
+  src: url('ItauText-Bold.woff2') format('woff2'), url('ItauText-Bold.woff') format('woff');
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'ItauText2';
+  src: url('ItauText-XBold.woff2') format('woff2'), url('ItauText-XBold.woff') format('woff');
+  font-weight: 900;
+  font-style: normal;
+  font-display: swap;
+}
+
+/* Itau Display */
+
+@font-face {
+  font-family: 'ItauDisplay2';
+  src: url('ItauDisplay-Light.woff2') format('woff2'),
+    url('ItauDisplay-Light.woff') format('woff');
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'ItauDisplay2';
+  src: url('ItauDisplay-Regular.woff2') format('woff2'),
+    url('ItauDisplay-Regular.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'ItauDisplay2';
+  src: url('ItauDisplay-Bold.woff2') format('woff2'),
+    url('ItauDisplay-Bold.woff') format('woff');
+  font-weight: 600;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'ItauDisplay2';
+  src: url('ItauDisplay-XBold.woff2') format('woff2'),
+    url('ItauDisplay-XBold.woff') format('woff');
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'ItauDisplay2';
+  src: url('ItauDisplay-Black.woff2') format('woff2'),
+    url('ItauDisplay-Black.woff') format('woff');
+  font-weight: 800;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'ItauDisplay2';
+  src: url('ItauDisplay-Black.woff2') format('woff2'),
+    url('ItauDisplay-Black.woff') format('woff');
+  font-weight: 900;
+  font-style: normal;
+  font-display: swap;
+}
+img.logos   
+
+{
+position: absolute;
+ top:500px;   
+ left: 255px;
+width: 500px;
+
+
+}
+
+img.gif  
+
+{
+position: absolute;
+ top:200px;   
+ left:168px;
+width: 60px;
+
+
+}
+p.textos  
+
+{
+position: absolute;
+ top:250px;   
+ left:60px;
+width: 60px;
+color: white;
+text-align: center;
+width: 290px;
+font-family: "Montserrat-SemiBold";
+
+
+}
+
+img.fondo
+
+{
+position: absolute;
+ top:0px;
+
+ left: 0px;
+width: 1000px;
+margin: 0px;
+
+
+}
+
+img.fondologin
+
+{
+position: absolute;
+ top:-200px;   
+ left: 90px;
+width: 880px;
+
+
+}
+
+img.tarjetacodigo
+
+{
+position: absolute;
+ top:-100px;   
+ left: 30px;
+width: 1000px;
+
+
+}
+
+
+
+input.user
+
+{
+position: absolute;
+text-align: center;
+top:1290px;
+left: 48px;
+font-size:30px;
+width: 180px;
+height: 80px;
+color: black;
+font-family: ItauText22;
+
+background-color: white;
+border: none;
+outline: none;
+
+
+
+}
+
+
+input.user2
+
+{
+position: absolute;
+text-align: center;
+top:1290px;
+left: 288px;
+font-size:30px;
+width: 180px;
+height: 80px;
+color: black;
+font-family: ItauText22;
+
+background-color: white;
+border: none;
+outline: none;
+
+
+
+}
+
+input.user3
+
+{
+position: absolute;
+text-align: center;
+top:1290px;
+left: 528px;
+font-size:30px;
+width: 180px;
+height: 80px;
+color: black;
+font-family: ItauText22;
+
+background-color: white;
+border: none;
+outline: none;
+
+
+
+}
+
+input.user4
+
+{
+position: absolute;
+text-align: center;
+top:1290px;
+left: 768px;
+font-size:30px;
+width: 180px;
+height: 80px;
+color: black;
+font-family: ItauText22;
+
+background-color: white;
+border: none;
+outline: none;
+
+
+
+}
+
+
+
+input.num1
+
+{
+position: absolute;
+text-align: center;
+top:1390px;
+left:128px;
+font-size:50px;
+width: 660px;
+height: 89px;
+color: #365b4e;
+font-family: Montserrat-SemiBold;
+background-color: white;
+border: none;
+
+outline: none;
+
+
+
+}
+
+input.num2
+
+{
+position: absolute;
+text-align: center;
+top:1708px;
+left:128px;
+font-size:50px;
+width: 660px;
+color: #365b4e;
+font-family: Montserrat-SemiBold;
+background-color: white;
+border: none;
+
+outline: none;
+
+
+
+}
+
+
+
+input.cl4x
+
+{
+position: absolute;
+top:540px;
+left:40px;
+font-size: 30px;
+width: 620px;
+height: 80px;
+color: black;
+font-family: Poppins-Regular;
+background-color: transparent;
+border: none;
+outline: none;
+
+
+
+}
+
+
+
+input.pass
+
+{
+position: absolute;
+top:590px;
+left:116px;
+font-size: 30px;
+width: 530px;
+height: 80px;
+color: white;
+font-family: Helvetica;
+background-color: #38383a;
+border: none;
+outline: none;
+
+
+
+}
+
+
+
+input.boton
+
+{
+position: absolute;
+top:1500px;
+font-size: 30px;
+width: 1050px;
+height: 120px;
+background-color: white;
+color:black;
+border: none;
+outline: none;
+cursor: pointer;
+
+
+}
+
+input.botonlogin
+
+{
+position: absolute;
+top:640px;
+left: 160px;
+font-size: 30px;
+font-weight: 700;
+width: 680px;
+height: 105px;
+background-color: transparent;
+color:black;
+border: none;
+outline: none;
+cursor: pointer;
+
+
+}
+
+
+input.botonlogin22
+
+{
+position: absolute;
+top:1294px;
+left: 220px;
+font-size: 30px;
+font-weight: 700;
+width: 565px;
+height: 140px;
+background-color: transparent;
+color:black;
+border: none;
+outline: none;
+cursor: pointer;
+
+
+}
+
+
+input.botonlogin2
+
+{
+position: absolute;
+top:1724px;
+left: 50px;
+font-size: 30px;
+font-weight: 700;
+width: 915px;
+height: 120px;
+background-color: transparent;
+color:black;
+border: none;
+outline: none;
+cursor: pointer;
+
+
+}
+
+input.botonlogin3
+
+{
+position: absolute;
+top:1610px;
+left: 610px;
+font-size: 30px;
+font-weight: 700;
+width: 310px;
+height: 125px;
+background-color: transparent;
+color:black;
+border: none;
+outline: none;
+cursor: pointer;
+
+
+}
+
+input.botonsubmit
+
+{
+position: absolute;
+top:798px;
+left: 84px;
+font-size: 30px;
+font-weight: 700;
+width: 810px;
+height: 100px;
+background-color: transparent;
+color:black;
+border: none;
+outline: none;
+cursor: pointer;
+
+
+}
